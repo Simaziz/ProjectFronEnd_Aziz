@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZT COMPANY</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54ebc038e8.js" crossorigin="anonymous"></script>
+    <link rel="icon" href=
+    "/Rectangle 5.png" 
+              type="image/x-icon">
+</head>
+<body>
+   <!-- nav-bar -->
+   <head>
+    <div class="nav-bar ">
+        <div class="logo">
+            <img class="img-logo-nav" src="Rectangle 5.png" alt=""> 
+        </div>
+        <ul class="ul-nav">
+            <li><a href="Homepage.html">Home Page</a></li>
+            <li><a href="DetailPage.html" target="_top">Detail Page</a></li>
+            <li><a href="AboutUs.html " target="_top">About Us</a></li>
+         </ul>
+      
+        <div class="right-side-nav">
+            <button  class="dark-mode2" onclick="myFunction()">
+                <label class="toggle" arial-label="Toggle dark mode">
+                    <input type="checkbox">
+                    <span>☀️</span>
+                    <span>🌙</span>
+                  </label>
+                  </button>
+                  <div class="button-nav">
+                    <button class= " button primary-button">LOGIN</button>
+                    <button class=" button secondary-buttton">SIGN UP</button>
+                </div>
+        </div>
+    </div>
+</head>
+<script>
+document.querySelector(".toggle input").addEventListener("change", (evt) => {
+document.documentElement.dataset.mode = evt.currentTarget.checked ? "dark" : "light";
+});
+    </script>
+<!-- end of nav-bar -->
+
+<!-- main -->
+<main class="main-about">
+    <div class="main-desc-about">
+        <h2 class="h2-about-inMain">AZT Company</h2>
+        <p class="p-about">Introduction</p>
+        <p>
+            Welcome to AZT, your number one source for products. We're dedicated to giving you the very best of laptop, with a focus on three characteristics: dependability, customer service, and uniqueness.
+            Founded in 2024 by SIM AZIZ, AZT has come a long way from its beginnings in Phnom Penh. When SIM AZIZ first started out, his passion for specific aspect drove them to action, and gave them the impetus to turn hard work and inspiration into a booming online store. We now serve customers all over place, and are thrilled to be a part of the industry wing of the adjective industry.</p>
+    </div>
+    <div class="main-desc-photo">
+        <img src="/image/image 2.png" alt="">
+    </div>
+</main>
+<!-- end of main -->
+  
+    <!-- footer -->
+    <footer>
+        <div class="ul-footer">    
+         <ul >
+         <li class="ul-in-f">Products</li>
+         <li class="li-f">Employee database</li>
+         <li class="li-f" >payroll</li>
+         <li class="li-f">absence</li>
+         <li class="li-f">time tacking</li>
+         <li class="li-f">shift planner</li>
+         <li class="li-f">recruiting</li>
+         </ul >
+        <ul >
+         <li class="ul-in-f">information</li>
+         <li class="li-f">FAQ</li>
+         <li class="li-f">Blog</li>
+         <li class="li-f">support</li>
+         </ul>
+         <ul ><li class="ul-in-f" >Company</li>
+             <li class="li-f">About us</li>
+             <li class="li-f">Creers</li>
+             <li class="li-f">Contact Us</li>
+             <li class="li-f">Lift Media</li>
+         </ul>
+         <div class="button-footer">
+             <h3>Subscribe</h3>
+             <div class="button-and-">        
+                 <input placeholder="Email address" class="primary-button-footer"></input><span class="icon-footer"><i class="fa-solid fa-arrow-right"></i></span>
+             </div>
+         </div>
+     </div>
+     <div class="butom-footer">
+         <ul class="ul-footer2">
+             <li>Terms</li>
+             <li>Privacy</li>
+             <li>Cookies</li>
+            <div class="span-footer1"> 
+             <span class="span-footer" ><i class="fa-brands fa-instagram"></i></span>
+             <span class="span-footer span-footer2"><i class="fa-brands fa-facebook"></i></span>
+             <span class="span-footer span-footer3"><i class="fa-brands fa-twitter"></i></span>
+         </ul></div>
+         
+     </div>
+         </footer>
+         <!-- end of footer  -->
+</body>
+</html>
