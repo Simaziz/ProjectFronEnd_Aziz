@@ -250,6 +250,7 @@ body {
 	width: 300px;
     /* gap: 1rem; */
 	border-radius: 10px;
+	
 }
 
 .buy-button:hover {
@@ -266,6 +267,14 @@ body {
 }
 .img-card {
 	margin: 1.5rem;
+	
+}
+.img-card >img:hover{
+
+	transform: scale(1.06);
+	transition: transform 0.5s;
+	
+	
 }
 .img-card1 {
 	width: 100%;
@@ -423,6 +432,10 @@ footer {
 }
 .img-card2{
     margin: 10px;
+}
+.img-card2>img:hover{
+	transform: scale(1.06);
+	transition: transform 0.5s;
 }
 .card2 {
 	background-color: var(--accen-color);
