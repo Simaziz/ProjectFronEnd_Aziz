@@ -629,7 +629,7 @@ footer {
 		margin-bottom: 2rem;
 	}
 	.ul-nav {
-		font-size: 5px;
+		font-size: 8px;
 	}
 	.main-1 {
 		/* display: flex; */
@@ -719,6 +719,10 @@ footer {
 		display: flex;
 		flex-direction: row;
 		margin: 1px;
+	}
+	.buttom-card2 {
+		margin-top: 0;
+	
 	}
 
 	.star-card2 {
